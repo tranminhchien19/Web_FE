@@ -1,0 +1,121 @@
+/* Tablet responsive */
+@media (max-width: 1000px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .carousel-item {
+        height: 358px;
+    } 
+
+    .navbar-center {
+        display: none;
+    }
+    .navbar-mobile {
+        display: block; 
+    }
+
+    .hambuger-navbar-btn {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 24px;
+    }
+
+    .navbar-brand {  
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-option { 
+        flex-direction: row; 
+    }
+
+    .navbar-option > .nav-item {
+        margin: 0 6px;
+    }
+ 
+    .product-item-wrapper .quick-view-btn,
+    .product-item-wrapper .add-to-cart-btn {
+        opacity: 1;
+        right: 6px;  
+    }
+    
+    .product-item-favourite-btn {
+        right: 10px;
+    }
+
+    .product-item:hover .quick-view-btn,
+    .product-item:hover .add-to-cart-btn {
+        right: 6px;
+    }
+}
+
+@media (max-width: 414px) {
+    .top-header.scroll {
+        height: 60px;
+    }
+
+    .carousel-inner {
+        padding-top: 80px;
+    }
+
+    .carousel-item {
+        height: 200px;
+    } 
+
+    .banner-title {
+        font-size: 17px;  
+        padding: 0;
+    }
+
+    .banner-store-name {
+        font-size: 8px;
+        padding: 0;
+        letter-spacing: 6px;
+    }
+
+    .banner-book-btn {
+        padding: 4px 12px; 
+        font-size: 9px;  
+        margin-top: 12px;
+    }
+
+    .content-thumb > div:first-child {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .footer-header { 
+        margin-bottom: 24px;
+    }
+
+    .footer-contact {
+        flex-wrap: wrap;
+    }
+
+    .footer-contact > h4 {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .navbar-option > .nav-item:nth-child(1),.nav-item:nth-child(3) {
+        display: none;
+    }
+
+    .product-item-wrapper .quick-view-btn,
+    .product-item-wrapper .add-to-cart-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .product-item-wrapper .add-to-cart-btn {
+        bottom: -15px;
+    }
+
+    .product-item-favourite-btn {
+        right: 5px;
+    } 
+} 
